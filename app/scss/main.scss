@@ -1,0 +1,28 @@
+$bl-line: #0795d3;
+$rd-line: #be1337;
+$or-line: #da8707;
+$yl-line: #f5d415;
+$gr-line: #00b050;
+$sv-line: #a2a4a1;
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+#top-nav li {
+  display: inline;
+  padding: 0 10px;
+  border-right: 1px solid;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  margin-left: 50px;
+}

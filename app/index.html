@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Metro</title>
+    <link rel="stylesheet" href="scss/style.css">
+    <script src="dist/vendor.bundle.js"></script>
+    <script src="dist/app.bundle.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul id="top-nav">
+          <li><a href="/home">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/map">Map</a></li>
+          <li><a href="/next">Next Train</a></li>
+        </ul>
+      </nav>
+      <h1>DC Metro</h1>
+    </header>
+    <main>
+      <h2>Next Train Arrivals</h2>
+      
+      <section id="stn-select">
+        <h3>Select Line</h3>
+        <select>
+          <option value="bl-line">Blue</option>
+          <option value="rd-line">Red</option>
+          <option value="or-line">Orange</option>
+          <option value="yl-line">Yellow</option>
+          <option value="gr-line">Green</option>
+          <option value="sv-line">Silver</option>
+        </select>
+        <h3>Select Station</h3>
+        <select>
+          <option value="bl-franconia">Franconia-Springfield</option>
+          <option value="bl-vandorn">Van Dorn St</option>
+          <option value="bl-kingstreet">King St Old Town</option>
+          <option value="bl-potomac">Braddock Rd</option>
+          <option value="bl-reagan">Ronald Reagan Washington National Airport</option>
+          <option value="bl-crystal">Crystal City</option>
+        </select>
+      </section>
+      
+      <section id="arrivals">
+        <h3>Estimated Arrivals</h3>
+        <table>
+          <tr>
+            <tr>Line</tr>
+            <tr>Dest</tr>
+            <tr>Min</tr>
+          </tr>
+          <tr>
+            <td>BL</td>
+            <td>Largo Town Center</td>
+            <td>ARR</td>
+          </tr>
+          <tr>
+            <td>YL</td>
+            <td>Fort Totten</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>BL</td>
+            <td>Largo Town Center</td>
+            <td>8</td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <tr>Line</tr>
+            <tr>Dest</tr>
+            <tr>Min</tr>
+          </tr>
+          <tr>
+            <td>YL</td>
+            <td>Huntington</td>
+            <td>BRD</td>
+          </tr>
+          <tr>
+            <td>BL</td>
+            <td>Franconia-Springfield</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>YL</td>
+            <td>Huntington</td>
+            <td>9</td>
+          </tr>
+        </table>
+      </section>
+      
+      <section id="info">
+        <h3>Station Information</h3>
+        <h4>Address</h4>
+        <address>
+          <a target="_blank"
+              href="https://www.google.com/maps/search/?api=1&query=1750+South+Clark+St%2C+Arlington%2C+VA+22202">
+          Crystal City Station<br>
+          1750 South Clark St.<br>
+          Arlington, VA 22202</a>
+        </address>
+
+        <iframe src="https://www.google.com/maps/embed/v1/place?q=1750+South+Clark+St%2C+Arlington%2C+VA+22202&zoom=17&key=AIzaSyAbKHE12ujz-tP8nwERsYoIR8lXTtZPo7k">
+        </iframe>
+        <h4>Lines</h4>
+        <span>BL</span><span>YL</span>
+      </section>
+    </main>
+  </body>
+</html>

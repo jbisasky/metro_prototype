@@ -1,0 +1,33 @@
+{
+  "name": "metro_prototype",
+  "version": "1.0.0",
+  "description": "Prototype for metro desktop app",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbisasky/metro_prototype.git"
+  },
+  "author": "Jordan Bisasky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbisasky/metro_prototype/issues"
+  },
+  "homepage": "https://github.com/jbisasky/metro_prototype#readme",
+  "dependencies": {
+    "angular": "1.5.0",
+    "css-loader": "^0.28.9",
+    "express": "^4.16.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^3.0.2",
+    "style-loader": "^0.20.1"
+  }
+}
