@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/jbisasky/metro_prototype#readme",
   "dependencies": {
+    "@uirouter/angularjs": "^1.0.14",
     "angular": "1.5.0",
     "css-loader": "^0.28.9",
     "express": "^4.16.2",

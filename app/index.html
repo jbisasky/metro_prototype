@@ -2,10 +2,8 @@
 <html>
   <head>
     <title>Metro</title>
-    <link rel="stylesheet" href="scss/style.css">
     <script src="dist/vendor.bundle.js"></script>
     <script src="dist/app.bundle.js"></script>
-    <script src="app.js"></script>
   </head>
   <body>
     <header>
@@ -45,53 +43,62 @@
       
       <section id="arrivals">
         <h3>Estimated Arrivals</h3>
-        <table>
-          <tr>
-            <tr>Line</tr>
-            <tr>Dest</tr>
-            <tr>Min</tr>
-          </tr>
-          <tr>
-            <td>BL</td>
-            <td>Largo Town Center</td>
-            <td>ARR</td>
-          </tr>
-          <tr>
-            <td>YL</td>
-            <td>Fort Totten</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>BL</td>
-            <td>Largo Town Center</td>
-            <td>8</td>
-          </tr>
+        <table id="arr-1a">
+          <thead>
+            <tr>
+              <th>Line</th>
+              <th>Dest</th>
+              <th>Min</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>BL</td>
+              <td>Largo Town Center</td>
+              <td>ARR</td>
+            </tr>
+            <tr>
+              <td>YL</td>
+              <td>Fort Totten</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>BL</td>
+              <td>Largo Town Center</td>
+              <td>8</td>
+            </tr>
+          </tbody>  
         </table>
-        <table>
-          <tr>
-            <tr>Line</tr>
-            <tr>Dest</tr>
-            <tr>Min</tr>
-          </tr>
-          <tr>
-            <td>YL</td>
-            <td>Huntington</td>
-            <td>BRD</td>
-          </tr>
-          <tr>
-            <td>BL</td>
-            <td>Franconia-Springfield</td>
-            <td>4</td>
-          </tr>
-          <tr>
-            <td>YL</td>
-            <td>Huntington</td>
-            <td>9</td>
-          </tr>
+
+        <table id="arr-1b">
+          <thead>
+            <tr>
+              <th>Line</th>
+              <th>Dest</th>
+              <th>Min</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>YL</td>
+              <td>Huntington</td>
+              <td>BRD</td>
+            </tr>
+            <tr>
+              <td>BL</td>
+              <td>Franconia-Springfield</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>YL</td>
+              <td>Huntington</td>
+              <td>9</td>
+            </tr>
+          </tbody>
         </table>
       </section>
       
-      <section id="info">
+      <section id="stn-info">
         <h3>Station Information</h3>
         <h4>Address</h4>
         <address>

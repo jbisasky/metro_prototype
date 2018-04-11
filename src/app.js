@@ -2,9 +2,11 @@
 
 const express = require('express');
 
-const app = express();
-app.use('/', express.static('public'));
+const api = require('./api.json');
 
-app.listen(3000, () => {
-  console.log('Listening on port 3000');
+const app = express();
+app.use('/', express.static('app'));
+
+app.listen(4000, () => {
+  console.log('Listening on port 4000');
 });

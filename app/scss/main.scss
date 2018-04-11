@@ -26,3 +26,33 @@ a {
 section {
   margin-left: 50px;
 }
+
+// /* Grid Layout */
+// @media (min-width:768px) {
+//   main {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+//     grid-template-rows: 1fr 1fr 1fr;
+//     grid-gap: 10px;
+//     grid-template-areas:
+//       "stn-select"
+//       "arr-1a arr-1b
+//       stn-info";
+//   }
+// }
+
+// #stn-select {
+//   grid-area: stn-select;
+// }
+
+// #arr-1a {
+//   grid-area: arr-1a;
+// }
+
+// #arr-1b {
+//   grid-area: arr-1b;
+// }
+
+// #stn-info {
+//   grid-area: stn-info
+// }

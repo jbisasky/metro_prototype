@@ -2,18 +2,19 @@ const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const extractSass = new ExtractTextPlugin({
-  filename: "[name].[contenthash].css",
+  filename: __dirname + "/app/dist/main.bundle.css",
   disable: process.env.NODE_ENV === "development"
 });
 
 module.exports = {
   context: __dirname + '/app',
+  watch: true,
   entry: {
     app: ['./app.js', './scss/main.scss'],
     vendor: ['angular']  
   },
   output: {
-    path: __dirname + '/dist',
+    path: __dirname + '/app/dist',
     filename: 'app.bundle.js'
   },
   module: {
